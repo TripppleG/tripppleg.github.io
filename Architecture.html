@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Архитектура</title>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="30">
+    <meta name="description" content="SFTP">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Георги Газепов">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png">
+    <link href="css/bootstrap.min.css" ref="stylesheet">
+    <scrpit src="javascript/jquery.js"></scrpit>
+    <!--Bootstrap library-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-7mQhpDl5nRA5nY9lr8F1st2NbIly/8WqhjTp+0oFxEA/QUuvlbF6M1KXezGBh3Nb" crossorigin="anonymous">
+    <style>
+        .responsive {
+            width: 90%;
+            height: auto;
+            /*makes image responsive to window*/
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <div id="top">top</div>
+    <div class="container">
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+            <a href="index.html" class="navbar-brand mb-0 h1">
+                <img class="d-inline-block align-top" src="images/logo.png" width="30" height="30" alt="Logo"/>
+                SFTP
+            </a>
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">
+                            Начало
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link disabled">
+                            Архитектура
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="DropDown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Сравни SFTP с:
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="DropDown">
+                            <li><a href="tcp_ip.html" class="dropdown-item">TCP/IP</a></li>
+                            <li><a href="udp.html" class="dropdown-item">UDP</a></li>
+                            <li><a href="ftp.html" class="dropdown-item">FTP</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="apps.html" class="nav-link">
+                            Приложения
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <br>
+    <center>
+        <br><br>
+        <br>
+        <div class="container col-lg-8 col-lg-offset-2">
+            <div class="row">
+                <div class="col-lg-12 content-wrapper">
+                    <p>
+                    <h2>Въведение в SFTP</h2>
+                    Още познат като: Secure FTP, SSH File Transfer Protocol и Secure File Transfer Protocol
+                    Secure File Transfer Protocols, включително SFTP, ни помага да пренасяме данни в и извън
+                    организацията
+                    ти като знаеш, че информацията ти е защитени.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sftp-diagram">
+            <img src="images/servers.png" width="1000" height="500" alt="SFTP Diagram">
+        </div>
+        <hr>
+        <div class="container col-lg-8 col-lg-offset-2">
+            <div class="row">
+                <p>
+                    Когато трябва да защитите прехвърлянето на файлове от сървър към сървър,
+                    вашите търговски партньори и корпоративни сървъри, SFTP е по-сигурна опция от FTP.
+                    Secure File Transfer Protocol работи върху потока от данни с Secure Shell,
+                    за да установи защитена връзка и да предостави на организациите по-висока
+                    защита при прехвърляне на файлове.
+                    Това е така, защото SFTP използва алгоритми за криптиране,
+                    за да премести сигурно данни към вашия сървър и да запази файловете
+                    нечетими по време на процеса,
+                    а удостоверяването предотвратява неоторизиран достъп до файлове
+                    по време на операцията.
+                    Въпреки че SFTP не изисква двуфакторно удостоверяване,
+                    вие имате избор да изисквате потребителско име и парола,
+                    както и SSH ключове, за по-сигурна връзка.
+                    Създаването на SSH ключ затруднява хакери да се свързват към SFTP сървъра ви.
+                    Двойките SSH ключове трябва да се генерират предварително.
+                    SFTP ви дава опция за изпълнение на голямо разнообразие от задачи свързани с
+                    чуствителни данни, премахване на данни, за да провължи временно прекратен процес.
+                    За разлика от FTP комбиниран с SSL/TLS (FTPS), SFTP използва само порт 22, за да създаде връзка
+                    със сървъра.
+                </p>
+                <div>
+                    <img src="images/sftp.png" width="600" height="600" alt="SFTP Diagram">
+                </div>
+                <hr>
+                <p> За допълнително задълбочена информация относно начина на работа на SFTP, използвайте <a href="cryp.html"
+                        alt="more-info">този линк за допълнителна информация.</a>
+                </p>
+            </div>
+        </div>
+        </div>
+    </center>
+</body>
+</html>
