@@ -30,7 +30,7 @@
         crossorigin="anonymous"></script>
     <div class="container">
         <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
-            <a href="index.html" class="navbar-brand mb-0 h1">
+            <a href="index.html" class="navbar-brand mb-0 h1" title="Начало">
                 <img class="d-inline-block align-top" src="images/logo.png" width="30" height="30" alt="Logo"/>
                 SFTP
             </a>
@@ -41,28 +41,28 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a href="index.html" class="nav-link">
+                        <a href="index.html" class="nav-link" title="Начало">
                             Начало
                         </a>
                     </li>
                     <li class="nav-item active">
-                        <a href="Architecture.html" class="nav-link">
+                        <a href="architecture.html" class="nav-link" title="Архитектура">
                             Архитектура
                         </a>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" id="DropDown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                            data-bs-toggle="dropdown" aria-expanded="false" title="Сравни SFTP с:">
                             Сравни SFTP с:
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="DropDown">
-                            <li><a href="tcp_ip.html" class="dropdown-item">TCP/IP</a></li>
-                            <li><a href="udp.html" class="dropdown-item disabled">UDP</a></li>
-                            <li><a href="ftp.html" class="dropdown-item">FTP</a></li>
+                        <ul class="dropdown-menu" aria-labelledby="DropDown" style="text-align: center">
+                            <li><a href="tcp_ip.html" class="dropdown-item" title="TCP/IP">TCP/IP</a></li>
+                            <li><a class="dropdown-item disabled" title="UDP">UDP</a></li>
+                            <li><a href="ftp.html" class="dropdown-item" title="FTP">FTP</a></li>
                         </ul>
                     </li>
                     <li class="nav-item active">
-                        <a href="apps.html" class="nav-link">
+                        <a href="apps.html" class="nav-link" title="Приложения">
                             Приложения
                         </a>
                     </li>
@@ -70,7 +70,7 @@
             </div>
         </nav>
     </div><br><br><br>
-    <div class="sftp-diagram">
+    <div class="sftp-diagram" style="text-align: center;">
         <img src="images/udp.png" alt="UDP Diagram" width="900" height="313" class="responsive">
     </div>
     <br>
@@ -119,7 +119,6 @@
                     </ol>
                     </p>
                 </div>
-                <br>
                 <div>
                     <p>
                     <h3>UDP</h3>
