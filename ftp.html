@@ -19,9 +19,36 @@
             height: auto;
             /*makes image responsive to window*/
         }
+        ul.breadcrumb {
+            padding: 10px 15px;
+            list-style: none;
+            background-color: #eee;
+        }
+        ul.breadcrumb li {
+            display: inline;
+            font-size: 18px;
+        }
+        ul.breadcrumb li+li:before {
+            padding: 7px;
+            color: black;
+            content: "/";
+        }
+        ul.breadcrumb li a {
+            color: #0275d8;
+            text-decoration: none;
+        }
+        ul.breadcrumb li a:hover {
+            color: #01447e;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
+    <br><br>
+    <ul class="breadcrumb">
+        <li><a href="index.html" title="Начало">Начало</a></li>
+        <li>SFTP срещу FTP</li>
+    </ul>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
@@ -68,7 +95,6 @@
         </nav>
     </div>
     <br>
-    <br><br>
     <div class="ftp" style="text-align: center;">
         <img src="images/ftp-vs-sftp.jpg" alt="FTP vs SFTP" height="500", width="1000">
     </div>

@@ -15,9 +15,46 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.rtl.min.css"
         integrity="sha384-7mQhpDl5nRA5nY9lr8F1st2NbIly/8WqhjTp+0oFxEA/QUuvlbF6M1KXezGBh3Nb" crossorigin="anonymous">
+    <style>
+        ul.breadcrumb {
+            padding: 10px 15px;
+            list-style: none;
+            background-color: #eee;
+        }
+        ul.breadcrumb li {
+            display: inline;
+            font-size: 18px;
+        }
+        ul.breadcrumb li+li:before {
+            padding: 7px;
+            color: black;
+            content: "/";
+        }
+        ul.breadcrumb li a {
+            color: #0275d8;
+            text-decoration: none;
+        }
+        ul.breadcrumb li a:hover {
+            color: #01447e;
+            text-decoration: underline;
+        }
+        .linkFileZilla{
+             margin-left: 40.5%;
+        }
+        .linkSolarWinds{
+            margin-left: 36%;
+        }
+        .linkWinSCP{
+            margin-left: 40%;
+        }
+    </style>
 </head>
-
 <body>
+    <br><br>
+    <ul class="breadcrumb">
+        <li><a href="index.html" title="Начало">Начало</a></li>
+        <li>Приложения</li>
+    </ul>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
@@ -65,8 +102,6 @@
             </div>
         </nav>
     </div>
-    <br>
-        <br><br><br>
         <div class="container col-lg-8 col-lg-offset-2" style="text-align: center;">
             <div class="row">
                 <div class="col-lg-12 content-wrapper">
@@ -89,7 +124,7 @@
             </div>
         </div>
         <div class="sftp-diagram" style="text-align: center;">
-            <img src="images/filezila.png" alt="FileZilla" height="350" width="450">
+            <img src="images/filezila.png" alt="FileZilla" height="550" width="700">
             <p>FileZilla</p>
         </div>
     <h3>Приложения за SFTP:</h3>
@@ -113,29 +148,22 @@
         <img src="images/SolarWinds.png" alt="SolarWinds" height="500" width="850">
         <p>SolarWinds</p>
     </div>
+    <br>
     <div style="text-align:center">
         <h3>Достъпни приложения за всеки:</h3>
     </div>
-    <br>
     <ol>
         <h4>
-            <li>Filezilla</li>
+            <li>
+                Filezilla<a class="linkFileZilla" href="https://filezilla-project.org/" title="FileZilla">FileZilla link</a>
+            </li>
+            <li>
+                SolarWinds<a class="linkSolarWinds" href="https://www.solarwinds.com/" title="SolarWinds">SolarWinds link</a>
+            </li>
+            <li>
+                WinSCP<a class="linkWinSCP" href="https://winscp.net/eng/download.php" title="WinSCP">WinSCP link</a>
+            </li>
         </h4>
-        <div style="text-align:center">
-                <a href="https://filezilla-project.org/" title="FileZilla">FileZilla link</a>
-        </div>
-        <h4>
-            <li>SolarWinds</li>
-        </h4>
-        <div style="text-align:center" title="SolarWinds">
-                <a href="https://www.solarwinds.com/" title="SolarWinds">SolarWinds link</a>
-        </div>
-        <h4>
-            <li>WinSCP</li>
-        </h4>
-        <div style="text-align:center" title="WinSCP">
-                <a href="https://winscp.net/eng/download.php" title="WinSCP">WinSCP link</a>
-        </div>
     </ol>
 </body>
 </html>

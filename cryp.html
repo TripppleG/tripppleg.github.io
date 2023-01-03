@@ -27,13 +27,40 @@
             border: 1px solid black;
             border-radius: 10px;
         }
+        ul.breadcrumb {
+            padding: 10px 15px;
+            list-style: none;
+            background-color: #eee;
+        }
+        ul.breadcrumb li {
+            display: inline;
+            font-size: 18px;
+        }
+        ul.breadcrumb li+li:before {
+            padding: 7px;
+            color: black;
+            content: "/";
+        }
+        ul.breadcrumb li a {
+            color: #0275d8;
+            text-decoration: none;
+        }
+        ul.breadcrumb li a:hover {
+            color: #01447e;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
+    <br><br>
+    <ul class="breadcrumb">
+        <li><a href="index.html" title="Начало">Начало</a></li>
+        <li><a href="architecture.html" title="Архитектура">Архитектура</a></li>
+        <li>Криптиране</li>
+    </ul>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
-    <div id="top">top</div>
     <div class="container">
         <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
             <a href="index.html" class="navbar-brand mb-0 h1" title="Начало">
@@ -76,7 +103,6 @@
             </div>
         </nav>
     </div>
-    <br><br><br>
     <div class="container col-lg-8 col-lg-offset-2" style="text-align: center;">
         <div class="row">
             <div class="col-lg-12 content-wrapper">
