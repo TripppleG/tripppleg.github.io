@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+	<loc>https://tripppleg.github.io/</loc>
+	<lastmod>2023-01-03</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+		<image:loc>https://tripppleg.github.io/images/logo.png</image:loc>
+		<image:caption>Logo</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>https://tripppleg.github.io/images/sftp-diagram.png</image:loc>
+		<image:caption>SFTP Diagram</image:caption>
+	</image:image>
+</url>
+<url>
+	<loc>https://tripppleg.github.io/tcp_ip.html</loc>
+	<lastmod>2023-01-03</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+		<image:loc>https://tripppleg.github.io/images/sftp_vs_tcp.jpg</image:loc>
+		<image:caption>SFTP Diagram</image:caption>
+	</image:image>
+</url>
+<url>
+	<loc>https://tripppleg.github.io/architecture.html</loc>
+	<lastmod>2023-01-03</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+		<image:loc>https://tripppleg.github.io/images/servers.png</image:loc>
+		<image:caption>SFTP Diagram</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>https://tripppleg.github.io/images/sftp.png</image:loc>
+		<image:caption>SFTP Diagram</image:caption>
+	</image:image>
+</url>
+<url>
+	<loc>https://tripppleg.github.io/udp.html</loc>
+	<lastmod>2023-01-03</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+		<image:loc>https://tripppleg.github.io/images/udp.png</image:loc>
+		<image:caption>UDP Diagram</image:caption>
+	</image:image>
+</url>
+<url>
+	<loc>https://tripppleg.github.io/ftp.html</loc>
+	<lastmod>2023-01-03</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+		<image:loc>https://tripppleg.github.io/images/ftp-vs-sftp.jpg</image:loc>
+		<image:caption>FTP vs SFTP</image:caption>
+	</image:image>
+</url>
+<url>
+	<loc>https://tripppleg.github.io/apps.html</loc>
+	<lastmod>2023-01-03</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+		<image:loc>https://tripppleg.github.io/images/filezila.png</image:loc>
+		<image:caption>FileZilla</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>https://tripppleg.github.io/images/SolarWinds.png</image:loc>
+		<image:caption>SolarWinds</image:caption>
+	</image:image>
+</url>
+<url>
+	<loc>https://tripppleg.github.io/cryp.html</loc>
+	<lastmod>2023-01-03</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+		<image:loc>https://tripppleg.github.io/images/what-is-SFTP.png</image:loc>
+		<image:caption>SFTP diagram</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>https://tripppleg.github.io/images/SSH-session.png</image:loc>
+		<image:caption>SSH Session</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>https://tripppleg.github.io/images/how-sftp-works.png</image:loc>
+		<image:caption>How does SFTP work</image:caption>
+	</image:image>
+</url>
+</urlset>
